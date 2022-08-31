@@ -33,7 +33,7 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
   * Instale as dependências:
     * `npm install`
 
-3. Rode o servidor e vá até `http://localhost:3000` no seu navegador
+3. Rode o servidor e vá até `http://localhost:3001` no seu navegador
   * Verifique que a sua porta 3000 está livre no localhost:
     * `sudo ss -plnut`
   * Agora, execute o servidor
