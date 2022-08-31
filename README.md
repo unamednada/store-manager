@@ -33,6 +33,8 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
   * Instale as dependências:
     * `npm install`
 
+# INSERIR PASSOS PARA CONEXÃO LOCAL COM DB AQUI
+
 3. Rode o servidor e vá até `http://localhost:3001` no seu navegador
   * Verifique que a sua porta 3000 está livre no localhost:
     * `sudo ss -plnut`
