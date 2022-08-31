@@ -22,12 +22,12 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
 
 ![Project Gif](./out.gif)
 
-### 🗒 PARA RODAR O SHOPPING LOCALMENTE:
+### 🗒 PARA RODAR O STORE MANAGER LOCALMENTE:
 
 1. Clone o repositório
-  * `git clone git@github.com:unamednada/shopping-cart.git`
+  * `git clone git@github.com:unamednada/store-manager.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd shopping-cart`
+    * `cd store-manager`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
@@ -44,9 +44,9 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
 ### 🗒 PARA CONTRIBUIR COM O SHOPPING CART:
 
 1. Clone o repositório
-  * `git clone git@github.com:unamednada/shopping-cart.git`
+  * `git clone git@github.com:unamednada/store-manager.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd shopping-cart`
+    * `cd store-manager`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
@@ -77,13 +77,13 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
   * Usando o exemplo anterior: `git push -u origin mariazinha-feat-mobile-design`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/unamednada/shopping-cart/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/unamednada/store-manager/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[MARIAZINHA][FEAT]Mobile design`
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/unamednada/shopping-cart/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/unamednada/store-manager/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
