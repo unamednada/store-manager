@@ -58,7 +58,7 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
 
 ---
 
-### 🗒 PARA CONTRIBUIR COM O SHOPPING CART:
+### 🗒 PARA CONTRIBUIR COM O STORE MANAGER:
 
 1. Clone o repositório
   * `git clone git@github.com:unamednada/store-manager.git`
@@ -109,6 +109,15 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
 Depois que as mudanças forem revisadas, elas poderão ser incorporadas, ou você pode ter que fazer uma mudança pra que elas sejam revisadas novamente. Fique de olho!
 
 ---
+
+### Testes Unitários e Cobertura
+
+Para garantir que sua alteração não interfere no funcionamento da API, antes de subir suas modificações, lembre-se de testar as camadas e caso faça mais testes ou modifique os testes atuais, certifique-se de que a cobertura está acima do mínimo:
+
+```bash
+npm run test:mocha
+npm run test
+```
 
 ### Linter
 
