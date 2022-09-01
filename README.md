@@ -33,10 +33,25 @@ Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimen
   * Instale as dependências:
     * `npm install`
 
-# INSERIR PASSOS PARA CONEXÃO LOCAL COM DB AQUI
+3. Certifique-se de que seu servidor MySQL está rodando, senão inicialize
+  * Verifique se o serviço está online:
+    * `sudo systemctl status mysql`
+  * Caso esteja offline, inicie o serviço:
+    * `sudo systemctl start mysql`
+
+4. Faça a migração do banco de dados para sua máquina local
+  * Abra seu terminal ou o seu workbench e faça a query contida no arquivo:
+    * `StoreManager.sql`
+
+5. Crie um arquivo chamado `.env` na raiz do projeto contendo as seguintes variáveis:
+  * `PORT`: a porta em que a API vai receber as requisições
+  * `MYSQL_HOST`: o hospedeiro do banco de dados, no caso da máquina local, o `localhost`
+  * `MYSQL_USER`: seu usuário do MySQL
+  * `MYSQL_PASSWORD`: a senha para acessar o MySQL
+  * `MYSQL_DB_NAME`: o nome do banco de dados que criamos no passo 3, `StoreManager`
 
 3. Rode o servidor e vá até `http://localhost:3001` no seu navegador
-  * Verifique que a sua porta 3000 está livre no localhost:
+  * Verifique que a sua porta 3001 está livre no localhost:
     * `sudo ss -plnut`
   * Agora, execute o servidor
     * `npm start`
