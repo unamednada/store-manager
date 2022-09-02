@@ -6,6 +6,22 @@ Sistema de gerenciamento de vendas com autenticação e autorização.
 
 Esta API contém testes unitários para garantir a qualidade do resultado. Cobertura mínima de 60% de código.
 
+**LISTA DE ENDPOINTS**:
+
+  * `/sales`:
+    - `GET /`;
+    - `POST /`;
+    - `GET /<id>`;
+    - `DELETE /<id>`;
+    - `PUT /<id>`;
+
+  * `/products`:
+    - `GET /`;
+    - `POST /`;
+    - `GET /<id>`;
+    - `DELETE /<id>`;
+    - `PUT /<id>`;
+
 Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimento Web.
 
 ---
