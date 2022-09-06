@@ -4,9 +4,10 @@
   "description": "Simple CRUD to sales and products",
   "main": "index.js",
   "scripts": {
+    "migrate": "node db/migration.js",
     "test": "jest --runInBand",
     "test:mocha": "nyc --all --include models --include services --include controllers mocha test/unit/*.js --exit",
-    "start": "node index.js",
+    "start": "node index.js && npm run migrate",
     "debug": "nodemon index.js",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
   },
@@ -19,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/tryber/sd-02-project-store-manager/issues"
   },
-  "homepage": "https://github.com/tryber/sd-02-project-store-manager#readme",
   "dependencies": {
     "@hapi/boom": "^9.1.0",
     "@hapi/joi": "^17.1.1",
