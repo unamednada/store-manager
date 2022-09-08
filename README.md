@@ -6,6 +6,10 @@ Sistema de gerenciamento de vendas com autenticação e autorização.
 
 Esta API contém testes unitários para garantir a qualidade do resultado. Cobertura mínima de 60% de código.
 
+**URI base da API**: [Deploy](https://store-manager-deploy.herokuapp.com/)
+
+*A API responde aos métodos HTTP abaixo. As requisições devem ser feitas para `https://store-manager-deploy.herokuapp.com/<ENDPOINT>`. A URI base não contém nenhum conteúdo relevante. Recomendo utilizar o [Postman](https://www.postman.com/), o [Insomnia](https://insomnia.rest/) ou outra aplicação para acessar os endpoints.*
+
 **LISTA DE ENDPOINTS**:
 
   * `/sales`:
